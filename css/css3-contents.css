@@ -1,0 +1,44 @@
+ /*id selector*/
+        #contents
+        {
+            width: 200px;
+            height: 300px;
+            border:2px solid black;/* dashed,dotted,solid*/
+            overflow: auto;
+            float: left;
+        }
+         #data
+        {
+            width: 600px;
+            height: 300px;
+            background-color: darkseagreen;
+            float: left;
+        }
+        /*type selector*/
+        
+        ul{
+           list-style: none; 
+            margin-top: 0px;
+        }
+        
+        li{
+            margin-left: -40px;
+            text-align: center;
+            line-height: 30px;
+            background-color: purple;
+            color: white;
+           margin-bottom: 2px;
+            /*border-bottom:1px dotted white; */
+            cursor: pointer;
+            
+            
+        }
+        li:hover{
+            background-color: yellow;
+            color: purple;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        
