@@ -11,6 +11,7 @@
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./workForce/css/index.css" type="text/css" />
     <script>
 
         $(document).ready(function(){
@@ -90,8 +91,8 @@
                     background-repeat: no-repeat;
         }
         #logo{
-            width: 90px;
-            height: 80px;
+            width: 50px;
+            height: 40px;
         
             background-image: url(pic/worker%20logo.jpeg);
             background-size: cover;
@@ -134,16 +135,16 @@
 </head>
 
 <body>
-   <div class="container bg-transparent">
-        <div class="row ">
-           <div class="form-row bg-dark col-md-12" >
+   <div class="container-fluid">
+        <div class="row bg-dark ">
+           <div class="col-md-12" >
            <div class="mt-3" id="logo"></div>
-            <div class=" bg-dark mb-5 text-center" >
-                <h1 class=" display-4 text-white mt-4" style="margin-left:70px;">WORKFORCE</h1>
+            <div class="" >
+                <h1 class="display-4 text-white " style="margin-left:70px;">WORKFORCE</h1>
                 
                 </div>
                 </div>
-                <div class="form-row mt-2 col-md-12 bg-dark" id="button" >
+                <div class="row mt-2 col-md-12 bg-dark" id="button" >
                 <div style="margin-left:320px;" >
                     <button type="button" class="btn btn-outline-primary  mt-2 mb-2" data-toggle="modal" data-target="#Signup">
                         signup <span class="badge badge-light"></span>
